@@ -9,7 +9,7 @@ mkdir -p /exports/workflows
 
 # Exportar workflows
 echo "📦 Exportando workflows..."
-n8n export:workflow --all --output=/exports/workflows/backup.json
+n8n export:workflow --all --output=/exports/workflows/
 
 # Verificar se a exportação foi bem-sucedida
 if [ $? -ne 0 ]; then
